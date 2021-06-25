@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap");
 
 :root {
-  --red: #fa2904;
+  --red: #79c8a8;
   --dark-grey: #202020;
+  --dark-purple: #6653e7;
   --grey: #303030;
   --white: #ffffff;
   --boost: #de3056;
@@ -21,6 +22,7 @@ body {
 .logo {
   height: 200px;
   width: 200px;
+  border-radius: 500px;
 }
 
 .col-lg {

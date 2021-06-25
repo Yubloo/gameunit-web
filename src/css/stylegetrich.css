@@ -1,84 +1,85 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap");
 
 :root {
-    --dark-purple: #FA2904;
-    --dark-grey: #202020;
-    --white: #FFFFFF;
+  --dark-purple: #79c8a8;
+  --dark-grey: #202020;
+  --white: #ffffff;
 }
 
 body {
-    background: var(--dark-grey);
-    font-family: 'Manrope', sans-serif;
-    color: #FFFFFF;
+  background: var(--dark-grey);
+  font-family: "Manrope", sans-serif;
+  color: #ffffff;
 }
 
 .container {
-    background-color: var(--dark-grey);
+  background-color: var(--dark-grey);
 }
 
 .logo {
-    height: 200px;
-    width: 200px;
+  height: 200px;
+  width: 200px;
+  border-radius: 500px;
 }
 
 .col-lg {
-    text-align: center;
-    padding-top: 15%;
+  text-align: center;
+  padding-top: 15%;
 }
 
 .title {
-    color: var(--dark-purple);
+  color: var(--dark-purple);
 }
 
 .footer {
-    padding-top: 15%;
-    font-size: 20px;
+  padding-top: 15%;
+  font-size: 20px;
 }
 
 a.link {
-    text-decoration: none;
-    color: var(--dark-purple);
+  text-decoration: none;
+  color: var(--dark-purple);
 }
 
 a.link:hover {
-    text-decoration: underline;
-    color: var(--dark-purple);
+  text-decoration: underline;
+  color: var(--dark-purple);
 }
 
 .buttons a {
-    background-color: var(--dark-purple);
-    color: var(--white);
-    
-    padding: 10px;
-    padding-inline: 50px;
-    margin: 10px;
-    transition-duration: 0.1s;
-    border-radius: 10px;
-    width: 100%;
-    max-width: 240px;
-    text-decoration: none;
+  background-color: var(--dark-purple);
+  color: var(--white);
+
+  padding: 10px;
+  padding-inline: 50px;
+  margin: 10px;
+  transition-duration: 0.1s;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 240px;
+  text-decoration: none;
 }
 
 .buttons a:hover {
-    background-color: var(--dark-purple);
-    color: var(--white);
+  background-color: var(--dark-purple);
+  color: var(--white);
 
-    padding: 10px;
-    padding-inline: 50px;
-    margin: 10px;
-    transition-duration: 0.1s;
-    border-radius: 5px;
-    width: 100%;
-    max-width: 240px;
-    text-decoration: none;
+  padding: 10px;
+  padding-inline: 50px;
+  margin: 10px;
+  transition-duration: 0.1s;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 240px;
+  text-decoration: none;
 }
 
 .spoil {
-    color: var(--dark-grey);
+  color: var(--dark-grey);
 }
 
 @media (max-width: 375px) {
-    a {
-        padding-inline: 25px;
-    }
+  a {
+    padding-inline: 25px;
   }
+}
